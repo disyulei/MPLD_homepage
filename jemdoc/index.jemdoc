@@ -1,0 +1,114 @@
+# jemdoc: addcss{jemdoc/jemdoc.css}
+# jemdoc: addcss{jemdoc/myExtra.css}
+# jemdoc: title{MPL Decomposition}
+
+
+# ==== Title and Authors
+{{
+<p><center><font size="8" face="Times New Roman" color="b54900">
+MPL-Decomposer: Multiple Patterning Layout Decomposer
+</font></center></p>
+#<p><center><font size="6">
+#Authors:
+#<a href="http://www.cerc.utexas.edu/~bei" target="_blank">Bei Yu</a>
+#and
+#<a href="http://users.ece.utexas.edu/~dpan/" target="_blank">Prof. David Z. Pan</a>
+#</font></center></p>
+}}
+
+
+{{<div id="intro">}}
+== Introduction
+
+~~~
+{}{img_left}{jemdoc/img/c1total_result.jpg}{mpld_result}{244}{}{}
+
+As the minimum feature size further decreases, multiple patterning lithography (MPL) has become one of the most viable solutions to sub-14nm half-pitch patterning.
+Multiple patterning lithography consists of double, triple, or quadruple patterning.
+In multiple patterning lithography manufacturing process, there are several exposure/etching steps, through which the layout can be produced.
+The advantage of this process is that the effective pitch can be improved, which improves the lithography resolution.
+
+The key challenge of multiple patterning lithography is the layout decomposition, where input layout is divided into several masks.
+When the distance between two input features is less than minimum coloring distance $min_s$, they need to be assigned to different masks to avoid a coloring conflict.
+Sometimes coloring conflict can be also resolved by inserting stitch to split a pattern into two touching parts.
+However this introduces stitches, which lead to yield loss because of overlay error.
+Therefore, two of the main objectives in layout decomposition are conflict minimization and stitch minimization.
+
+We present a high performance *MPL-Decomposer* to resolve the layout decomposition problem for multiple patterning lithography.
+
+~~~
+
+{{</div>}}
+
+
+
+{{<div id="excu">}}
+== Excutables
+
+- Version 2.0: [jemdoc/software/UTDecomposer/UTDecomposer_2_0.tar.gz ICCAD'11 excutables]
+
+- Version 3.1: [jemdoc/software/UTDecomposer/UTDecomposer_3_1.tar.gz ICCAD'13 excutables]
+
+
+
+{{</div>}}
+
+
+
+{{<div id="bench">}}
+== Benchmarks
+
+- ISCAS 85/89 Benchmarks:
+[jemdoc/software/UTDecomposer/ISCAS85_GDS.tar.gz GDSII format]
+
+- ISCAS 85/89 Benchmarks:
+[jemdoc/software/UTDecomposer/ISCAS85_ASCII.tar.gz ASCII format]
+
+{{</div>}}
+
+
+{{<div id="publication">}}
+== Publications
+- Bei Yu and David Z. Pan,
+  "[http://link.springer.com/referenceworkentry/10.1007/978-3-642-27848-8_744-1 Layout Decomposition for Triple Patterning]",
+  in [http://link.springer.com/book/10.1007/978-3-642-27848-8 Encyclopedia of Algorithms], M.-Y. Kao eds., Springer, 2015.
+
+- Bei Yu, Kun Yuan, Duo Ding, and David Z. Pan,
+  "[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7001598 Layout Decomposition for Triple Patterning Lithography]",
+  IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), vol.34, no.3, pp.433-446, 2015.
+
+- Bei Yu and David Z. Pan,
+  "[http://dl.acm.org/citation.cfm?id=2593152 Layout Decomposition for Quadruple Patterning Lithography and Beyond]",
+  ACM/IEEE Design Automation Conference (DAC), San Francisco, CA, June 1-5, 2014 .
+
+- Bei Yu, Yen-Hung Lin, Gerard Luk-Pat, Duo Ding, Kevin Lucas, and David Z. Pan,
+  "[http://dl.acm.org/citation.cfm?id=2561828.2561863 A High-Performance Triple Patterning Layout Decomposer with Balanced Density]",
+  IEEE/ACM International Conference on Computer-Aided Design (ICCAD), San Jose, CA, November 18-21, 2013.
+
+- Bei Yu, Kun Yuan, Boyang Zhang, Duo Ding and David Z. Pan,
+  "[http://dl.acm.org/citation.cfm?id=2132325.2132327 Triple Patterning Lithography Layout Decomposition]",
+  IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2011.
+  *(William J. McCalla Best Paper Award Nomination)*
+
+{{</div>}}
+
+
+{{<div id="contact">}}
+== Contact
+
+MPL-Decomposer is developed by
+[http://www.cerc.utexas.edu/~yibolin Yibo Lin],
+[http://www.cerc.utexas.edu/~bei Bei Yu],
+and 
+[http://users.ece.utexas.edu/~dpan/ Prof. David Z. Pan].
+Please [mailto:yibolin@utexas.edu contact us] with any bug reports and comments. 
+
+{{</div>}}
+
+
+{{<div id="link">}}
+== Links
+
+{{</div>}}
+
+
