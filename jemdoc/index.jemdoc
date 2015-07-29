@@ -45,9 +45,9 @@ We present a high performance *MPL-Decomposer* to resolve the layout decompositi
 {{<div id="excu">}}
 == Excutables
 
-- Version 2.0: [jemdoc/software/UTDecomposer/UTDecomposer_2_0.tar.gz ICCAD'11 excutables]
+- Version 2.0: [executables/UTDecomposer_2_0.tar.gz ICCAD'11 excutables]
 
-- Version 3.1: [jemdoc/software/UTDecomposer/UTDecomposer_3_1.tar.gz ICCAD'13 excutables]
+- Version 3.1: [executables/UTDecomposer_3_1.tar.gz ICCAD'13 excutables]
 
 
 
@@ -59,10 +59,10 @@ We present a high performance *MPL-Decomposer* to resolve the layout decompositi
 == Benchmarks
 
 - ISCAS 85/89 Benchmarks:
-[jemdoc/software/UTDecomposer/ISCAS85_GDS.tar.gz GDSII format]
+[benchmark/ISCAS85_GDS.tar.gz GDSII format]
 
 - ISCAS 85/89 Benchmarks:
-[jemdoc/software/UTDecomposer/ISCAS85_ASCII.tar.gz ASCII format]
+[benchmark/ISCAS85_ASCII.tar.gz ASCII format]
 
 {{</div>}}
 
