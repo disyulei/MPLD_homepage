@@ -250,13 +250,11 @@ def standardconf():
   [footerend]
   </div>
   </div>
-  
   [lastupdated]
   Page generated |, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 
   [sourcelink]
   (<a href="|">source</a>)
-
   """
   b = ''
   for l in a.splitlines(True):
@@ -264,7 +262,6 @@ def standardconf():
       b += l[2:]
     else:
       b += l
-
   return b
 
 class JandalError(Exception):
@@ -1179,7 +1176,7 @@ def procfile(f):
 
   menu = None
   # convert these to a dictionary.
-  showfooter = True
+  showfooter = False
   showsourcelink = False
   showlastupdated = True
   showlastupdatedtime = True
