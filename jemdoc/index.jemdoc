@@ -43,7 +43,7 @@ We present a high performance *MPL-Decomposer* to resolve the layout decompositi
 
 
 {{<div id="excu">}}
-== Excutables
+== MPL Excutables
 
 - Version 2.0: [executables/UTDecomposer_2_0.tar.gz ICCAD'11 excutables]
 
@@ -51,6 +51,9 @@ We present a high performance *MPL-Decomposer* to resolve the layout decompositi
 
 - Version 3.7: [executables/UTDecomposer_3_7.tar.gz TCAD'15 excutables] Results: [result/mpl_3_7/ISCAS_sim.tar.gz ISCAS GDSII]
 
+== SimpleMPL Executables
+
+- Version 1.0: [executables/SimpleMPL_LPColoring_01-07-2016.tar.gz SPIE'16 executables]
 
 {{</div>}}
 
@@ -70,6 +73,11 @@ We present a high performance *MPL-Decomposer* to resolve the layout decompositi
 
 {{<div id="publication">}}
 == Publications
+ - Yibo Lin, Xiaoqing Xu, Bei Yu, Ross Baldick, and David Z. Pan, 
+    "Triple/Quadruple Patterning Layout Decomposition via Novel Linear Programming and Iterative Rounding", 
+    SPIE Advanced Lithography Conference, San Jose, CA, Feb. 21-25, 2016 
+    (to appear)
+
 - Bei Yu and David Z. Pan,
   "[http://link.springer.com/referenceworkentry/10.1007/978-3-642-27848-8_744-1 Layout Decomposition for Triple Patterning]",
   in [http://link.springer.com/book/10.1007/978-3-642-27848-8 Encyclopedia of Algorithms], M.-Y. Kao eds., Springer, 2015.
