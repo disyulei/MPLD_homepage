@@ -1,5 +1,5 @@
-# jemdoc: addcss{jemdoc/jemdoc.css}
-# jemdoc: addcss{jemdoc/myExtra.css}
+# jemdoc: addcss{./css/jemdoc.css}
+# jemdoc: addcss{./css/myMiddle.css}
 # jemdoc: title{MPL Decomposition}
 
 
@@ -21,7 +21,7 @@ MPL-Decomposer: Multiple Patterning Layout Decomposer
 == Introduction
 
 ~~~
-{}{img_left}{jemdoc/img/c1total_result.jpg}{mpld_result}{244}{}{}
+{}{img_left}{./img/c1total_result.jpg}{mpld_result}{880}{}{}
 
 As the minimum feature size further decreases, multiple patterning lithography (MPL) has become one of the most viable solutions to sub-14nm half-pitch patterning.
 Multiple patterning lithography consists of double, triple, or quadruple patterning.

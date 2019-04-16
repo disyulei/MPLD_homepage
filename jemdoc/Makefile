@@ -1,4 +1,3 @@
 all:
-	./jemdoc.py  -o ../ index.jemdoc
-	cp -rf eqs  ../
+	./jemdoc  -c mysite.conf  -o ../ index.jemdoc
 
